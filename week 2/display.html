@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css display</title>
+    <style>
+         input{
+            display: block;
+            margin: 5px;
+         }
+         a{
+            display: block;
+            text-decoration: none;
+         }
+        .block-elements{
+
+        }
+        li{
+            display: inline;
+        }
+        .container div{
+            border: 2px dashed red;
+        }
+        .container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="non-block-elements">
+            <form action="\submit" method="post">
+                <label>
+                    Names:
+                </label>
+                <input type="text" placeholder="Enter your Names" required>
+                <label>
+                    email:
+                </label>
+                <input type="email" placeholder="Enter your email"required>
+                <label>
+                    
+                    <a href="#" target="_blank" >link 1</a>
+                    <a href="#" target="_blank" >link 2</a>
+                    </div>
+                    <div class="block-elements">
+                        <ul>
+                            <li>
+                                item 1
+                                <ul>
+                                  <li>
+                                     ingridient 1
+                                  </li> 
+                                  <li>
+                                    ingridient 2
+                                  </li>
+                                  <li>
+                                    ingridient 3
+                                  </li>
+                                </ul>
+                    </div>
+            </form> 
+</body>
+</html>
